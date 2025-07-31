@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: journal App
+  data:
+    mongodb:
+          uri: mongodb+srv://Tester:mongoTester@cluster0.ssxwxih.mongodb.net/journaldb?retryWrites=true&w=majority&tls=true&appName=Cluster0
+          database: journaldb
+          auto-indexed-creation: true
+
+server:
+  port: 8080
+  error:
+    include-message=always: always
